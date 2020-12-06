@@ -12,5 +12,9 @@ namespace StringUtils
         {
             return str1 + str2;
         }
+        public static int Length(string ss)
+        {
+            return ss.Length;
+        }
     }
 }
