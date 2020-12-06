@@ -16,7 +16,7 @@ namespace StringUtils
         {
             if (ss == null)
             {
-                return 0;
+                return -1;
             }
             return ss.Length;
         }
