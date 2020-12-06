@@ -14,6 +14,10 @@ namespace StringUtils
         }
         public static int Length(string ss)
         {
+            if (ss == null)
+            {
+                return 0;
+            }
             return ss.Length;
         }
     }
